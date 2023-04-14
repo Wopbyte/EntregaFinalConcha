@@ -20,6 +20,7 @@ class Personaje {
     }
 }
 
+//clase trampa para guardar los personajes de la sesion
 class PersonajeSesion {
     constructor(nombre, rareza, tipo, id, img) {
         this.nombre = nombre;
@@ -45,11 +46,7 @@ class Usuario {
 
     }
 
-    agregarPj(personaje) {//(nombre, rareza, tipo, id, img) 
-        //const nuevoPersonaje = new Personaje(array.nombre, array.rareza, array.tipo, array.id);
-        //this.pjs.push(nuevoPersonaje); //this.pjs.push(nombre, rareza, tipo, id, img);
-        //this.pjs.push(personaje); 
-        //this.pjs[personaje.nombre, personaje.rareza, personaje.tipo, personaje.id, personaje.img] = personaje;
+    agregarPj(personaje) {
         this.pjs.push(personaje);
     }
 
