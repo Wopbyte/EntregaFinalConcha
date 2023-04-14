@@ -1,0 +1,37 @@
+[
+    {
+        "nombre":"Dark Low Demon",
+        "rareza":"A",
+        "tipo":"Dark Fuego",
+        "id":6,
+        "img":"./assets/img/dlowDemon.png"
+    },
+    {
+        "nombre":"Dark Wet Demon",
+        "rareza":"S",
+        "tipo":"Dark Agua",
+        "id":7,
+        "img":"./assets/img/dwetDemon.png"
+    },
+    {
+        "nombre":"Dark Human",
+        "rareza":"A",
+        "tipo":"Dark Fuego",
+        "id":8,
+        "img":"./assets/img/dhuman.png"
+    },
+    {
+        "nombre":"Shiny Dark God",
+        "rareza":"SURR",
+        "tipo":"Shiny Oscuridad",
+        "id":9,
+        "img":"./assets/img/sdarkGod.png"
+    },
+    {
+        "nombre":"Shiny Void Horn",
+        "rareza":"USMR",
+        "tipo":"Shiny Vacio",
+        "id":10,
+        "img":"./assets/img/svoidHorn.png"
+    }
+]

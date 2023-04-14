@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    
+    background: radial-gradient(white, rgba(0, 225, 255, 0.452));
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header img{
+    border-radius: 150px;
+}
+
+header .title{
+
+    padding-left: 100px;
+}
+
+header form #labelCurrency{
+    padding-right: 10px;
+    font-size: 24px;
+}
+
+header form #pCurrency{
+    padding-right: 40px;
+    font-size: 24px;
+
+}
+
+main #logged{
+    text-align: center;
+}
+
+main .form-check-input {
+
+    text-align: left;
+}
+
+.cardGacha img{
+    width: 200px;
+}
+
+.hLink{
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
