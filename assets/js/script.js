@@ -405,7 +405,7 @@ async function bPromocional(user) { //Compra el banner promocional y guarda el n
     if (user.gemas >= bProm) {
         let nuevoPersonaje = await gachaProm();
         Swal.fire({
-            title: 'Jugaste el banner permanente!',
+            title: 'Jugaste el banner promocional!',
             text: 'se te descontaron: ' + bPerm + ' gemas',
             text: 'Has obtenido a: ' + nuevoPersonaje.nombre + ", de rareza " + nuevoPersonaje.rareza + ".",
             imageUrl: nuevoPersonaje.img,
